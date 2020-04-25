@@ -3,14 +3,363 @@
 <head>
     <meta charset="UTF-8">
     <title>Weronika Gajska</title>
-
-
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="CSS/fontawesome.min.css">-->
+    <link rel="stylesheet" href="CSS/animate.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".werka-top-navbar">
+
+<!-- MENU -->
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top werka-top-navbar" role="navigation">
+        <button class="navbar-toggler togler-button" type="button" data-toggle="collapse" data-target="#werka-menu" aria-controls="werka-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-angle-down"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="werka-menu">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li><a class="nav-link smooth-scroll" href="#home">Start</a></li>
+                <li><a class="nav-link smooth-scroll" href="#skills">Umiejętności</a></li>
+                <li><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                <li><a class="nav-link smooth-scroll" href="#omnie">O mnie</a></li>
+                <li><a class="nav-link smooth-scroll" href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
+
+<!-- HOME -->
+<div id="home">
+    <div id="home-container" class="efect-parallax">
+        <div id="home-content">
+            <div id="home-content-box">
+                <div id="home-heading">
+                    <h3>Weronika Gajska</h3>
+                    <h4>Początkujący Fronted Developer</h4>
+                </div>
+                <!--<div id="home-btn">-->
+                    <!--<a class="btn btn-white" href="#" role="button">O mnie</a>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SKILLS -->
+<section id="skills">
+    <div class="title-box">
+        <div class="title wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+            <h3> Umiejętności </h3>
+            <div class="underline"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="skill-item">
+                    <div class="skills-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skills-desc">
+                        <p>Posiadam wiedzę z zakresu HTML</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-item">
+                    <div class="skills-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skills-desc">
+                        <p>Dobrze znam CSS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-item">
+                    <div class="skills-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>JS</h3>
+                    </div>
+                    <div class="skills-desc">
+                        <p>Lubię programować w JS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-item">
+                    <div class="skills-icon">
+                        <i class="fab fa-angular"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>Angular</h3>
+                    </div>
+                    <div class="skills-desc">
+                        <p>Rozwijam swoje umiejętności programowania w Angularze</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-item">
+                    <div class="skills-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>GIT</h3>
+                    </div>
+                    <div class="skills-desc">
+                        <p>Chętnie korzystam z GIT jako systemu kontroli wersji</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-item">
+                    <div class="skills-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>Firebase</h3>
+                    </div>
+                    <div class="skills-desc">
+                        <p>Rozwijam swoje umiejętności korzystania z Firebase</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-item">
+                    <div class="skills-icon">
+                        <i class="fab fa-adobe"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>Adobe</h3>
+                    </div>
+                    <div class="skills-desc">
+                        <p>Potrafię obsługiwać Photoshopa oraz Ilustratora</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-item">
+                    <div class="skills-icon">
+                        <i class="fab fa-bootstrap"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="skills-desc">
+                        <p>Często korzystam z biblioteki Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+    <div class="title-box">
+        <div class="title">
+            <h3> Portfolio </h3>
+            <div class="underline">
+                <div class="underline-second"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="portfolio-title">
+                    <h3>Strona zawodnika FSR</h3>
+                </div>
+                <div class="portfolio-image border-0">
+                    <div class="links-container">
+                        <a class="btn btn-green" href="https://github.com/gajfska/filip-fsr" target="_blank" role="button">github</a>
+                        <a class="btn btn-green" href="http://fsr.gajski.pl/" target="_blank" role="button">demo</a>
+                    </div>
+                    <div class="image">
+                        <img src="IMG/project1.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="portfolio-desc">
+                    <p>Prosta strona internetowa napisana z pomocą JS.
+                        <br><strong> Tech stack: HTML | CSS | JS | Bootstrap | RWD</strong></p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="portfolio-title">
+                    <h3>Aplikacja pogoda</h3>
+                </div>
+                <div class="portfolio-image border-0">
+                    <div class="links-container">
+                        <a class="btn btn-green" href="#" role="button">github</a>
+                        <a class="btn btn-green" href="#" role="button">demo</a>
+                    </div>
+                    <div class="image">
+                        <img src="IMG/background2.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="portfolio-desc">
+                    <p>Aplikacja napisana w Angularze z użyciem fetch API - wyświetlająca aktualną pogodę oraz zaznaczająca miasto na mapie.
+                        <br><strong>Tech stack: HTML | CSS | Angular | API </strong> </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="portfolio-title">
+                    <h3>Gra zamknij reklamę</h3>
+                </div>
+                <div class="portfolio-image border-0">
+                    <div class="links-container">
+                        <a class="btn btn-green" href="#" role="button">github</a>
+                        <a class="btn btn-green" href="#" role="button">demo</a>
+                    </div>
+                    <div class="image">
+                        <img src="IMG/background2.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="portfolio-desc">
+                    <p>Prosta gra klikana napisana w Angularze.
+                        <br><strong> Tech stack: HTML | CSS | JS | Angular | Animate</strong></p>
+                </div>
+            </div>
 
 
+        </div>
+    </div>
+</section>
 
+<!-- O MNIE -->
+<section id="omnie">
+    <div class="title-box">
+        <div class="title">
+            <h3> O mnie </h3>
+            <div class="underline">
+                <div class="underline-second"></div>
+            </div>
+        </div>
+    </div>
+
+        <div class="omnie-image efect-parallax"></div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-10">
+                <div class="content-omnie">
+                    <p>Nazywam się Weronika Gajska. Przygodę z programowaniem zaczęłam w liceum gdzie poznałam podstawy C++ oraz
+                        HTML. Kolejne lata mojej nauki obrały trochę inny kierunek - posiadam dyplom magistra z Inżynierii
+                        Biomedycznej. <br><br>
+                        Na szczęście na naukę nigdy nie jest za późno! Od roku systematycznie poszerzam swoje
+                        umiejętności w technologiach webowych. Mam za sobą kilka kursów na platformie Udemy m.in.
+                        Programowanie w JavaScriptc czy Angular od podstaw. Cały czas ćwiczę, realizując proste projekty dzięki,
+                        którym mogę robić to, co daje mi radość (lub złość gdy kod nie chce współpracować), wzbudza ciekawość i
+                        motywuje do działania. <br><br>
+                        Chciałabym współtworzyć prawdziwe projekty i zdobywać doświadczenie, dlatego
+                        aktualnie szukam pracy lub stażu w IT jako Junior Front-end Developer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- KONTAKT -->
+<footer>
+    <div id="contact">
+        <h3> Zapraszam do kontaktu </h3>
+
+        <div id="contact-info">
+            <div id="nip-i-inne">
+                <p><strong>Weronika Gajska</strong><br>
+                    <strong>Mail:</strong><span> weronika.gajska@gmial.com</span></p><br>
+            </div>
+        </div>
+
+        <div class="social-list">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/weronika-gajska-0298b618b/" target="_blank" class="social-icon icon-white"><i class="fab fa-linkedin"></i> </a> </li>
+                <li><a href="https://github.com/gajfska" target="_blank" class="social-icon icon-white"><i class="fab fa-github"></i> </a> </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div id="contact-right">-->
+                <!--<h3>Zaprszam do kontaktu</h3>-->
+                <!--<div class="contact-info">-->
+                    <!--<a href="" class="footer-icon"><i class="fas fa-envelope"></i></a>-->
+                    <!--<p>wekljhgfhdgsadfghj</p>-->
+                    <!--<a href="" class="footer-icon"><i class="fas fa-envelope"></i> weronika.gajska@gmail.com</a>-->
+                    <!--<a href="" class="footer-icon"><i class="fas fa-envelope"></i> weronika.gajska@gmail.com</a>-->
+                <!--</div>-->
+                <!--<ul class="footer-icon-list">-->
+                    <!--<li><a href="" class="footer-icon"><i class="fas fa-envelope"></i> weronika.gajska@gmail.com</a></li>-->
+                    <!--<li><a href="https://www.linkedin.com/in/weronika-gajska-0298b618b/" target="_blank" class="footer-icon"><i class="fab fa-linkedin"></i>Jestem na Linkedinie</a></li>-->
+                    <!--<li><a href="https://github.com/gajfska" target="_blank" class="footer-icon"><i class="fab fa-github"></i>Zajrzyj na mojego githuba!</a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <div id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="footer-copyrights">
+                        <p>Made by gajska</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="footer-menu">
+                        <ul>
+                            <li><a class="smooth-scroll" href="#home">Start</a></li>
+                            <li><a class="smooth-scroll" href="#skills"></a>Umiejętności</li>
+                            <li><a class="smooth-scroll" href="#portfolio"></a>Potrfolio</li>
+                            <li><a class="smooth-scroll" href="#omnie"></a>O mnie</li>
+                            <li><a class="smooth-scroll" href="#contact"></a>Kontakt</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#home" id="back-to-top" class="btn btn-sm btn-back-to-top smooth-scroll" title="home" role="button">
+        <i class="fas fa-angle-up"></i>
+    </a>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
+<script src="https://kit.fontawesome.com/7988675266.js" crossorigin="anonymous"></script>
+<script src="JS/wow.min.js"></script>
+<script src="JS/bootstrap.min.js"></script>
 <script src="JS/custom.js"></script>
+
 </body>
 </html>
