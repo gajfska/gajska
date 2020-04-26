@@ -5,11 +5,10 @@
     <title>Weronika Gajska</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <!--<link rel="stylesheet" href="CSS/fontawesome.min.css">-->
     <link rel="stylesheet" href="CSS/animate.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
 </head>
-<body data-spy="scroll" data-target=".werka-top-navbar">
+<body data-spy="scroll" data-target=".werka-top-navbar" data-offset="65">
 
 <!-- MENU -->
 <header>
@@ -36,7 +35,7 @@
     <div id="home-container" class="efect-parallax">
         <div id="home-content">
             <div id="home-content-box">
-                <div id="home-heading">
+                <div id="home-heading" class="wow fadeIn" data-wow-duration="3s" data-wow-delay="0.5s">
                     <h3>Weronika Gajska</h3>
                     <h4>Początkujący Fronted Developer</h4>
                 </div>
@@ -51,13 +50,13 @@
 <!-- SKILLS -->
 <section id="skills">
     <div class="title-box">
-        <div class="title wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+        <div class="title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h3> Umiejętności </h3>
             <div class="underline"></div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="row">
             <div class="col-md-4">
                 <div class="skill-item">
@@ -178,7 +177,7 @@
 <!-- PORTFOLIO -->
 <section id="portfolio">
     <div class="title-box">
-        <div class="title">
+        <div class="title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h3> Portfolio </h3>
             <div class="underline">
                 <div class="underline-second"></div>
@@ -186,7 +185,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="row">
 
             <div class="col-md-4">
@@ -254,7 +253,7 @@
 <!-- O MNIE -->
 <section id="omnie">
     <div class="title-box">
-        <div class="title">
+        <div class="title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h3> O mnie </h3>
             <div class="underline">
                 <div class="underline-second"></div>
@@ -262,9 +261,9 @@
         </div>
     </div>
 
-        <div class="omnie-image efect-parallax"></div>
+    <div class="omnie-image efect-parallax wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s"></div>
 
-    <div class="container">
+    <div class="container wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="row">
 
             <div class="col-md-10">
@@ -290,11 +289,9 @@
     <div id="contact">
         <h3> Zapraszam do kontaktu </h3>
 
-        <div id="contact-info">
-            <div id="nip-i-inne">
+        <div class="contact-info">
                 <p><strong>Weronika Gajska</strong><br>
                     <strong>Mail:</strong><span> weronika.gajska@gmial.com</span></p><br>
-            </div>
         </div>
 
         <div class="social-list">
@@ -305,42 +302,22 @@
         </div>
     </div>
 
-
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--<div id="contact-right">-->
-                <!--<h3>Zaprszam do kontaktu</h3>-->
-                <!--<div class="contact-info">-->
-                    <!--<a href="" class="footer-icon"><i class="fas fa-envelope"></i></a>-->
-                    <!--<p>wekljhgfhdgsadfghj</p>-->
-                    <!--<a href="" class="footer-icon"><i class="fas fa-envelope"></i> weronika.gajska@gmail.com</a>-->
-                    <!--<a href="" class="footer-icon"><i class="fas fa-envelope"></i> weronika.gajska@gmail.com</a>-->
-                <!--</div>-->
-                <!--<ul class="footer-icon-list">-->
-                    <!--<li><a href="" class="footer-icon"><i class="fas fa-envelope"></i> weronika.gajska@gmail.com</a></li>-->
-                    <!--<li><a href="https://www.linkedin.com/in/weronika-gajska-0298b618b/" target="_blank" class="footer-icon"><i class="fab fa-linkedin"></i>Jestem na Linkedinie</a></li>-->
-                    <!--<li><a href="https://github.com/gajfska" target="_blank" class="footer-icon"><i class="fab fa-github"></i>Zajrzyj na mojego githuba!</a></li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-
     <div id="footer-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div id="footer-copyrights">
-                        <p>Made by gajska</p>
+                        <p>Made by Weronika Gajska</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div id="footer-menu">
                         <ul>
                             <li><a class="smooth-scroll" href="#home">Start</a></li>
-                            <li><a class="smooth-scroll" href="#skills"></a>Umiejętności</li>
-                            <li><a class="smooth-scroll" href="#portfolio"></a>Potrfolio</li>
-                            <li><a class="smooth-scroll" href="#omnie"></a>O mnie</li>
-                            <li><a class="smooth-scroll" href="#contact"></a>Kontakt</li>
+                            <li><a class="smooth-scroll" href="#skills">Umiejętności</a></li>
+                            <li><a class="smooth-scroll" href="#portfolio">Potrfolio</a></li>
+                            <li><a class="smooth-scroll" href="#omnie">O mnie</a></li>
+                            <li><a class="smooth-scroll" href="#contact">Kontakt</a></li>
                         </ul>
                     </div>
                 </div>
@@ -348,7 +325,7 @@
         </div>
     </div>
 
-    <a href="#home" id="back-to-top" class="btn btn-sm btn-back-to-top smooth-scroll" title="home" role="button">
+    <a href="#home" id="back-to-top" class="btn btn-back-to-top smooth-scroll" title="home" role="button">
         <i class="fas fa-angle-up"></i>
     </a>
 </footer>

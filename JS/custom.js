@@ -26,7 +26,7 @@ $(function () {
         // get/return id like #about if is clicked
         var section = $(this).attr("href");
         $('html, body').animate({
-            scrollTop: $(section).offset().top
+            scrollTop: $(section).offset().top - 60
         }, 1250), "easeInOutExpo";
     });
 })
