@@ -29,4 +29,11 @@ $(function () {
             scrollTop: $(section).offset().top - 60
         }, 1250), "easeInOutExpo";
     });
+});
+
+//  CLOSE MOBILE MENU
+$(function () {
+    $(".navbar-collapse ul li a").on("click touch", function () {
+        $(".navbar-toggler").click();
+    })
 })
