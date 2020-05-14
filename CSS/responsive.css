@@ -7,7 +7,7 @@
         height: 500px;
     }
 
-    .content-omnie {
+    .content-omnie p {
         height: 500px;
         font-size: 16px;
     }
@@ -30,24 +30,32 @@
         margin-bottom: 30px;
     }
 
-    .content-omnie {
+    .content-omnie p {
         height: 330px ;
+        width: 100%;
     }
 
-    .btn.btn-back-to-top {
-        bottom: 35px
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
-@media (min-width: 578px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .omnie-image {
         width: 100%;
         height: 250px;
         margin-bottom: 30px;
     }
 
-    .content-omnie {
+    .content-omnie p {
         height: 380px ;
+        width: 100%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .btn.btn-back-to-top {
@@ -56,24 +64,10 @@
 
 }
 
-@media (min-width: 481px) and (max-width: 576px) {
-    #home-heading h3 {
-        font-size: 60px;
-    }
-
-    #home-heading h4 {
-        font-size: 30px;
-    }
+@media (max-width: 576px){
 
     #footer-menu a {
         display: none;
-    }
-    #footer-copyrights p {
-        text-align: center;
-    }
-
-    .btn.btn-back-to-top {
-        bottom: 25px
     }
 
     #footer-bottom {
@@ -81,7 +75,7 @@
     }
 }
 
-@media (min-width: 3221px) and (max-width: 480px) {
+@media (max-width: 480px) {
     #home-heading h3 {
         font-size: 60px;
     }
@@ -90,30 +84,74 @@
         font-size: 30px;
     }
 
+    .omnie-image {
+        background-position: right;
+    }
+
+    .content-omnie p {
+        height: 450px ;
+        width: 100%;
+    }
+
     #footer-menu a {
         display: none;
     }
-    #footer-copyrights {
-        text-align: center;
+
+}
+
+@media (max-width: 410px) {
+    #home-heading h3 {
+        font-size: 60px;
     }
 
-    .btn.btn-back-to-top {
-        bottom: 35px
+    #home-heading h4 {
+        font-size: 30px;
+    }
+
+    .content-omnie p {
+        height: 350px ;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #contact h3 {
+        font-size: 25px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+    }
+
+    #footer-copyrights p {
+        font-size: 12px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
     #home-heading h3 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     #home-heading h4 {
-        font-size: 30px;
+        font-size: 20px;
     }
-    #footer-menu a {
+
+    .content-omnie p {
+        height: 410px ;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #contact h3 {
+        font-size: 20px;
+    }
+
+    #footer-copyrights p {
         display: none;
     }
-    #footer-copyrights {
-        text-align: center;
+
+    .btn.btn-back-to-top {
+        font-size: 15px;
+        padding: 3px 12px;
     }
 }
