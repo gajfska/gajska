@@ -245,6 +245,10 @@ body {
 
 /*         O MNIE         */
 
+.flex-container {
+    flex-wrap: nowrap;
+}
+
 #omnie {
     margin-bottom: 40px;
 }
@@ -256,12 +260,16 @@ body {
     float: right;
 }
 
-.content-omnie {
+.content-omnie p {
     height: 450px ;
     float: left;
     color: #808080;
     font-size: 17px;
     font-weight: 300;
+}
+
+.dziwnyrow {
+    display: -moz-box;
 }
 
 /*         CONTACT         */
@@ -332,9 +340,14 @@ footer {
     font-weight: 300;
 }
 
+#footer-menu {
+    float: left;
+}
+
 #footer-menu ul {
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 
 #footer-menu ul li {
@@ -401,8 +414,3 @@ ul.navbar-nav{
 .werka-top-navbar .navbar-nav .nav-link.active {
     color: #88d498;
 }
-
-
-
-
-
